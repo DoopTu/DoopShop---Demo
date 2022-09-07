@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet prefetch" href="https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css"
+        integrity="sha384-X8QTME3FCg1DLb58++lPvsjbQoCT9bp3MsUU3grbIny/3ZwUJkRNO8NPW6zqzuW9" crossorigin="anonymous">
+
+    <link rel="shortcut icon" href="./assets/img/logo-doopShoes.png">
+    <title>DoopShop</title>
+</head>
+
+<body>
+
+    <!--------------Header-------------->
+
+    <div class="header">
+        <div class="infor">
+            <span class="location"><i class="icon-map-marker"></i> Doop Entertainment, Los Angeles, UK</span>
+            <span class="gmail">tuhandsome111@gmail.com</span>
+        </div>
+
+        <div class="logo">
+            <a href="#"><img src="assets/img/logo-doopShoes-removebg-preview.png" alt=""></a>
+        </div>
+
+        <div class="search_form">
+            <form>
+                <input id="inputbox" type="text" placeholder="What do you need?" required>
+                <button id="searchBttn"><i class="icon-search"></i></button>
+            </form>
+
+        </div>
+
+        <div class="contact">
+            <div class="icon-contact"><a href="#"><i class="icon-facebook"></i></a></div>
+            <div class="icon-contact"><a href="#"><i class="icon-twitter"></i></a></div>
+            <div class="icon-contact"><a href="#"><i class="icon-instagram"></i></a></div>
+        </div>
+
+        <div class="phone-contact">
+            <div class="phone">
+                <i class="icon-phone"></i>
+            </div>
+            <h3>Hotline:</h3>
+            <span>0914523626</span>
+        </div>
+
+    </div>
+
+
+    <!--------------Nav bar-------------->
+
+    <div class="navbar fix_head fadeInDown animated">
+        <div class="navbar-items">
+            <ul>
+                <li class="list-of-product">
+                    <a style="margin-right: 1em;"><i class="icon-th-list"></i></a>
+                    <a style=" margin-right: 3em;" href="">List of products</a>
+
+                    <div class="dropdown_menu">
+                        <ul>
+                            <li><a href="#">Nike</a>
+                                <div class="dropdown_menu_Nike">
+                                    <ul>
+                                        <li><a href="#">Air Force 1</a></li>
+                                        <li><a href="#">Jordan</a></li>
+                                        <li><a href="#">J Ordan</a></li>
+                                        <li><a href="#">Adidas</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li><a href="#">MLB</a></li>
+                            <li><a href="#">J Ordan</a></li>
+                            <li><a href="#">Adidas</a>
+                                <div class="dropdown_menu_Adidas">
+                                    <ul>
+                                        <li><a href="#">Nike</a></li>
+                                        <li><a href="#">MLB</a></li>
+                                        <li><a href="#">J Ordan</a></li>
+                                        <li><a href="#">Adidas</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li><a href="#">Luxury Brand</a></li>
+                            <li><a href="#">New Balance</a></li>
+                            <li><a href="#">Sale</a></li>
+                            <li><a href="#">Converse</a></li>
+                            <li><a href="#">Vans</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Introduce</a></li>
+                <li><a href="#">Whole sale</a></li>
+                <li><a href="#">Sale off</a></li>
+                <li><a href="#idnews-events">News</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+
+
+
+
+
+    <!--------------Slider-------------->
+
+    <div class="slideGroup">
+        <div class="slides">
+            <div class="comSlide">
+                <img src="assets/img/slide-main1.jpg" alt="">
+            </div>
+
+            <div class="comSlide">
+                <img src="assets/img/slide-main2.jpg" alt="">
+            </div>
+
+            <div class="comSlide">
+                <img src="assets/img/slide-main-3.jpg" alt="">
+            </div>
+
+            <div class="comSlide">
+                <img src="assets/img/slide-main-4.jpg" alt="">
+            </div>
+
+            <div class="comSlide">
+                <img src="assets/img/slide-main-5.jpg" alt="">
+            </div>
+            <button class="prevBtn" onclick="changeslide(-1)"><i class="icon-chevron-left"></i></button>
+            <button class="nextBtn" onclick="changeslide_auto(1)"><i class="icon-chevron-right"></i></button>
+        </div>
+
+
+    </div>
+
+
+    <!--------------Contianer-------------->
+
+    <div class="container">
+        <!----------Featured products ---------->
+        <div class="featured-products">
+            <h1>Featured products</h1>
+            <div class="all-featured-products">
+
+                <div class="cards">
+                    <div class="card">
+                        <img src="assets/img/pro1.jpg" alt="" class="card-image" />
+                        <div class="card-content">
+                            <div class="card-top">
+                                <h3 class="card-title">Nike Blazer Mid Jumbo – Pink Oxford</h3>
+                                <span>1.200.000 VNĐ</span>
+                            </div>
+                            <div class="card-bottom">
+                                <button class="add-to-card">
+                                    <i class="icon-shopping-cart"></i>
+                                    <a href="#">Add to cart</a>
+                                </button>
+                                <button class="buy-btn">
+                                    <i class="icon-money"></i>
+                                    <a href="#">Buy it</a>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="assets/img/pro2.jpg" alt="" class="card-image" />
+                        <div class="card-content">
+                            <div class="card-top">
+                                <h3 class="card-title">Nike Air Max Dawn – Forrest Gump</h3>
+                                <span>1.200.000 VNĐ</span>
+                            </div>
+                            <div class="card-bottom">
+                                <button class="add-to-card">
+                                    <i class="icon-shopping-cart"></i>
+                                    <a href="#">Add to cart</a>
+                                </button>
+                                <button class="buy-btn">
+                                    <i class="icon-money"></i>
+                                    <a href="#">Buy it</a>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="assets/img/pro3.jpg" alt="" class="card-image" />
+                        <div class="card-content">
+                            <div class="card-top">
+                                <h3 class="card-title">Fila Ray Tracer – Pastel</h3>
+                                <span>1.200.000 VNĐ</span>
+                            </div>
+                            <div class="card-bottom">
+                                <button class="add-to-card">
+                                    <i class="icon-shopping-cart"></i>
+                                    <a href="#">Add to cart</a>
+                                </button>
+                                <button class="buy-btn">
+                                    <i class="icon-money"></i>
+                                    <a href="#">Buy it</a>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="assets/img/pro4.jpg" alt="" class="card-image" />
+                        <div class="card-content">
+                            <div class="card-top">
+                                <h3 class="card-title">Adidas Samba</h3>
+                                <span>1.200.000 VNĐ</span>
+                            </div>
+                            <div class="card-bottom">
+                                <button class="add-to-card">
+                                    <i class="icon-shopping-cart"></i>
+                                    <a href="#">Add to cart</a>
+                                </button>
+                                <button class="buy-btn">
+                                    <i class="icon-money"></i>
+                                    <a href="#">Buy it</a>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="assets/img/pro5.jpg" alt="" class="card-image" />
+                        <div class="card-content">
+                            <div class="card-top">
+                                <h3 class="card-title">NIKE Killshot SP</h3>
+                                <span>1.200.000 VNĐ</span>
+                            </div>
+                            <div class="card-bottom">
+                                <button class="add-to-card">
+                                    <i class="icon-shopping-cart"></i>
+                                    <a href="#">Add to cart</a>
+                                </button>
+                                <button class="buy-btn">
+                                    <i class="icon-money"></i>
+                                    <a href="#">Buy it</a>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="assets/img/pro6.jpg" alt="" class="card-image" />
+                        <div class="card-content">
+                            <div class="card-top">
+                                <h3 class="card-title">Nike Dunk Low Valerian Blue</h3>
+                                <span>1.200.000 VNĐ</span>
+                            </div>
+                            <div class="card-bottom">
+                                <button class="add-to-card">
+                                    <i class="icon-shopping-cart"></i>
+                                    <a href="#">Add to cart</a>
+                                </button>
+                                <button class="buy-btn">
+                                    <i class="icon-money"></i>
+                                    <a href="#">Buy it</a>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="assets/img/pro7.jpg" alt="" class="card-image" />
+                        <div class="card-content">
+                            <div class="card-top">
+                                <h3 class="card-title">Nike Air Jordan 1 Mid Milan</h3>
+                                <span>1.200.000 VNĐ</span>
+                            </div>
+                            <div class="card-bottom">
+                                <button class="add-to-card">
+                                    <i class="icon-shopping-cart"></i>
+                                    <a href="#">Add to cart</a>
+                                </button>
+                                <button class="buy-btn">
+                                    <i class="icon-money"></i>
+                                    <a href="#">Buy it</a>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="assets/img/pro8.jpg" alt="" class="card-image" />
+                        <div class="card-content">
+                            <div class="card-top">
+                                <h3 class="card-title">Nike Court Vision Alta ‘Triple White’</h3>
+                                <span>1.200.000 VNĐ</span>
+                            </div>
+                            <div class="card-bottom">
+                                <button class="add-to-card">
+                                    <i class="icon-shopping-cart"></i>
+                                    <a href="#">Add to cart</a>
+                                </button>
+                                <button class="buy-btn">
+                                    <i class="icon-money"></i>
+                                    <a href="#">Buy it</a>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+
+            <button class="featured-more">
+                <a href="">More</a>
+                <i class="icon-chevron-down"></i>
+            </button>
+        </div>
+
+        <!----------New products---------->
+
+        <div class="new-products">
+            <h1>New products</h1>
+            <div class="all-new-products">
+
+                <div class="cards">
+                    <div class="card">
+                        <img src="assets/img/pro9.jpg" alt="" class="card-image" />
+                        <div class="card-content">
+                            <div class="card-top">
+                                <h3 class="card-title">New Balance's 2002R 'Protection Pack'</h3>
+                                <span>1.200.000 VNĐ</span>
+                            </div>
+                            <div class="card-bottom">
+                                <button class="add-to-card">
+                                    <i class="icon-shopping-cart"></i>
+                                    <a href="#">Add to cart</a>
+                                </button>
+                                <button class="buy-btn">
+                                    <i class="icon-money"></i>
+                                    <a href="#">Buy it</a>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="assets/img/pro10.jpg" alt="" class="card-image" />
+                        <div class="card-content">
+                            <div class="card-top">
+                                <h3 class="card-title">Nike Air Jordan 1 Low 'Pastel Purple'</h3>
+                                <span>1.200.000 VNĐ</span>
+                            </div>
+                            <div class="card-bottom">
+                                <button class="add-to-card">
+                                    <i class="icon-shopping-cart"></i>
+                                    <a href="#">Add to cart</a>
+                                </button>
+                                <button class="buy-btn">
+                                    <i class="icon-money"></i>
+                                    <a href="#">Buy it</a>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="assets/img/pro11.jpg" alt="" class="card-image" />
+                        <div class="card-content">
+                            <div class="card-top">
+                                <h3 class="card-title">Vans Sk8-Hi Black White</h3>
+                                <span>1.200.000 VNĐ</span>
+                            </div>
+                            <div class="card-bottom">
+                                <button class="add-to-card">
+                                    <i class="icon-shopping-cart"></i>
+                                    <a href="#">Add to cart</a>
+                                </button>
+                                <button class="buy-btn">
+                                    <i class="icon-money"></i>
+                                    <a href="#">Buy it</a>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="assets/img/pro12.jpg" alt="" class="card-image" />
+                        <div class="card-content">
+                            <div class="card-top">
+                                <h3 class="card-title">Nike Jordan 1 Mid Black Chile Red White</h3>
+                                <span>1.200.000 VNĐ</span>
+                            </div>
+                            <div class="card-bottom">
+                                <button class="add-to-card">
+                                    <i class="icon-shopping-cart"></i>
+                                    <a href="#">Add to cart</a>
+                                </button>
+                                <button class="buy-btn">
+                                    <i class="icon-money"></i>
+                                    <a href="#">Buy it</a>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="assets/img/pro13.jpg" alt="" class="card-image" />
+                        <div class="card-content">
+                            <div class="card-top">
+                                <h3 class="card-title">Nike blazer mid 77 vintage</h3>
+                                <span>1.200.000 VNĐ</span>
+                            </div>
+                            <div class="card-bottom">
+                                <button class="add-to-card">
+                                    <i class="icon-shopping-cart"></i>
+                                    <a href="#">Add to cart</a>
+                                </button>
+                                <button class="buy-btn">
+                                    <i class="icon-money"></i>
+                                    <a href="#">Buy it</a>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="assets/img/pro14.jpg" alt="" class="card-image" />
+                        <div class="card-content">
+                            <div class="card-top">
+                                <h3 class="card-title">Nike Court Legacy 'White Desert Ochre'</h3>
+                                <span>1.200.000 VNĐ</span>
+                            </div>
+                            <div class="card-bottom">
+                                <button class="add-to-card">
+                                    <i class="icon-shopping-cart"></i>
+                                    <a href="#">Add to cart</a>
+                                </button>
+                                <button class="buy-btn">
+                                    <i class="icon-money"></i>
+                                    <a href="#">Buy it</a>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="assets/img/pro15.jpg" alt="" class="card-image" />
+                        <div class="card-content">
+                            <div class="card-top">
+                                <h3 class="card-title">Mlb Boston Big Ball Chunky P Shoes Red Sox</h3>
+                                <span>1.200.000 VNĐ</span>
+                            </div>
+                            <div class="card-bottom">
+                                <button class="add-to-card">
+                                    <i class="icon-shopping-cart"></i>
+                                    <a href="#">Add to cart</a>
+                                </button>
+                                <button class="buy-btn">
+                                    <i class="icon-money"></i>
+                                    <a href="#">Buy it</a>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="assets/img/pro16.jpg" alt="" class="card-image" />
+                        <div class="card-content">
+                            <div class="card-top">
+                                <h3 class="card-title">Air Jordan 1 Retro High – Tie Dye</h3>
+                                <span>1.200.000 VNĐ</span>
+                            </div>
+                            <div class="card-bottom">
+                                <button class="add-to-card">
+                                    <i class="icon-shopping-cart"></i>
+                                    <a href="#">Add to cart</a>
+                                </button>
+                                <button class="buy-btn">
+                                    <i class="icon-money"></i>
+                                    <a href="#">Buy it</a>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+            <button class="new-more">
+                <a href="">More</a>
+                <i class="icon-chevron-down"></i>
+            </button>
+        </div>
+
+        <!----------News - Events---------->
+
+        <div class="news-events" id="idnews-events">
+            <h1>News - Events</h1>
+            <div class="news-events__content">
+                <div class="videos">
+                    <video src="assets/video/Sneakers Store Promo Video _ @EXC.CONCEPT.mp4" height="300px" width="350px" controls> </video>
+                </div>
+                <div class="news-detail">
+                    <div class="news">
+                        <img src="assets/img/pro10.jpg" alt="">
+                        <div class="news-content">
+                            <a href="#">Cost of Nike Air Jordan 1 Low 'Pastel Purple'</a>
+                            
+                        </div>
+                    </div>
+                    <div class="news">
+                        <img src="assets/img/pro13.jpg" alt="">
+                        <div class="news-content">
+                            <a href="#">Cost of Nike blazer mid 77 vintage</a>
+                            
+                        </div>
+                    </div>
+                    <div class="news">
+                        <img src="assets/img/pro14.jpg" alt="">
+                        <div class="news-content">
+                            <a href="#">Cost of Nike Court Legacy 'White Desert Ochre'</a>
+                            
+                        </div>
+                    </div>
+                    <div class="news">
+                        <img src="assets/img/pro15.jpg  " alt="">
+                        <div class="news-content">
+                            <a href="#">Cost of Mlb Boston Big Ball Chunky P Shoes Red Sox</a>
+                            
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+
+        </div>
+
+        
+
+
+    </div>
+
+    <!----------Footer---------->
+
+
+
+    
+
+
+    <script type="text/javascript" src="js/main.js">
+        changeslide_auto(1);
+    </script>
+
+</body>
+
+</html>
