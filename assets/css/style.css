@@ -839,4 +839,38 @@ button:hover i {
     color: blue;
 }
 
-/* -------------------------------------- */
+/* -----------------Footer------------------ */
+.footer{
+    width: 100%;
+    margin-top: 3em;
+    background-color: #999;
+}
+.footer-main{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: black;
+}
+
+.footer-main-content{
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: 3em;
+    margin-right: 3em;
+    color: white;
+}
+
+
+.footer-main-content li{
+    margin-top: 1em;
+}
+
+.footer-main-content a{
+    font-size: 0.8em;
+    color: white;
+}
+
+.footer-main-content a:hover{
+    text-decoration: underline;
+    color: aliceblue;
+}
